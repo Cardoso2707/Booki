@@ -1,0 +1,369 @@
+@media (max-width:768px)
+{
+
+    body
+{
+    margin: 0px;
+	font-family:'Raleway', sans-serif;
+}
+    nav
+    {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .logo
+    {
+    
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    nav ul
+    {
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    nav li
+    {
+        width: 100%;
+        padding: 0px 40px 10px 40px;
+        margin-right: 0px;
+    }
+
+    nav a
+{
+	
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li:hover
+{
+	border-bottom: 3px solid #0065FC;
+    border-top: 0px;
+}
+
+.conteneur_header
+{
+    padding-left: 20px;
+}
+
+.search_mobile
+{
+    display: block;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: -20px;
+}
+
+.search_desktop
+{
+    display: none;
+   
+}
+
+.titre_slogan
+{
+    padding-top: 27px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    width: 90%;
+}
+
+.recherche
+{
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.filtre
+{
+    flex-wrap: wrap;
+}
+
+.titre_filtre
+{
+    width: 100%;
+}
+
+.bordefiltre
+{
+    margin: 5px;
+}
+
+h3
+{
+    margin-bottom: 5px;
+}
+.texticonfiltre
+{
+
+    padding: 10px;
+    margin: 0px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.iconinfo
+{
+    width: 30px;
+}
+
+.info 
+{
+    align-items: baseline;
+}
+
+main
+{
+    flex-direction: column-reverse;
+}
+
+.backpopulaire
+{
+    margin-right: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+    height: 560px;
+    flex: none;
+}
+
+.conteneur2
+{
+    width: 90%;
+   height: 521px;
+}
+
+.plus_populaire 
+{   
+    margin-bottom: 0px;
+}
+
+.plus_populaire h1
+{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.plus_populaire i 
+{
+    font-size: 20px;
+}
+
+.chambre_populaire
+{
+    height: 135px;
+    margin: 0px;
+}
+
+.description_img_populaire
+{   
+    width: 42%;
+    margin-left: 15px;
+}
+
+.star_populaire
+{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* HEBERGEMENTS A MARSEILLE */
+.backhebergeM 
+{
+    background-color:white;
+    flex: none;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+}
+
+.backhebergeM h1 
+{
+    font-size: 22px;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+.conteneur1 {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+}
+
+.backgroud 
+{
+    width: 90%;
+    box-shadow: 3px 3px 10px #cfcece;
+}
+
+.taille_img {
+    object-fit: cover;
+    width: 96%;
+    height: 117px;
+    border: 6px white solid;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.description_img
+{
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.chambre
+{
+    background-color: white;
+    text-decoration: none;
+    color: #000000;
+    width: 90%;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+
+}
+
+.afficher_plus 
+{
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* ACTIVITES A MARSEILLE */
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.conteneur_principal_marseille 
+{
+    justify-content: center;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.conteneur_principal_marseille h1
+{
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.card_marseille_1 
+{
+
+    width: 90%;
+    height: 190px;
+    margin-bottom: 25px;
+}
+
+.taille_img_vieuxport_parcnational 
+{
+  
+    width: 100%;
+    height: 190px;
+   
+}
+
+.titre_lieu_activites 
+{
+    padding: 20px;
+}
+
+.conteneur_activites
+{
+    width: 90%;
+    height: 405px;
+    margin-bottom: 25px;
+}
+
+.card_marseille_2
+{
+    height: 190px;
+}
+
+.taille_img_fort
+{
+    height: 190px;
+}
+
+.card_marseille_3
+{
+	height: 190px;
+}
+
+.card_marseille_4
+{
+    width: 90%;
+    height: 190px;
+    margin-bottom: 25px;
+}
+
+.card_marseille_5
+{
+	height: 190px;
+}
+
+.card_marseille_6
+{
+	height: 190px;
+}
+
+
+.taille_img_vieuxport_parcnational
+{
+    height: 190px;
+}
+
+ .taille_img_fort
+{
+	height: 190px;
+}
+
+.taille_img_frioul
+{
+	height: 190px;
+} 
+
+.taille_img_notre_dame
+{
+	height: 190px;
+}
+
+.taille_img_longchamp
+{
+	height: 190px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: 460px;
+    margin-left: 0px;
+    padding: 30px 0px 0px 20px;
+
+}
+
+.position_conteneur_link
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+}
