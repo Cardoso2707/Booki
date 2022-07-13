@@ -144,6 +144,7 @@ h3
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
+	cursor: pointer;
 	height: 48px;
 	margin: 10px;
 	border-top: 3px solid #F2F2F2;
