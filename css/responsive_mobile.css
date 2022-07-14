@@ -51,6 +51,11 @@ nav li:hover
     padding-left: 20px;
 }
 
+.iconlocalisation 
+{
+    width: 16%;
+}
+
 .search_mobile
 {
     display: block;
