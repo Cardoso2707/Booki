@@ -50,6 +50,13 @@ nav li:hover
 {
     padding-left: 20px;
 }
+input
+{
+    position: relative;
+    z-index: -1;
+    right: 10px;
+}
+    
 
 .iconlocalisation 
 {
