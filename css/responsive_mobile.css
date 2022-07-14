@@ -52,9 +52,7 @@ nav li:hover
 }
 input
 {
-    position: relative;
-    z-index: -1;
-    right: 10px;
+    height: 49px;
 }
     
 
@@ -63,12 +61,13 @@ input
     width: 16%;
 }
 
-.search_mobile
+.search_mobile 
 {
     display: block;
     width: 50px;
     border-radius: 15px;
     margin-left: -20px;
+    position: relative;
 }
 
 .search_desktop
@@ -85,10 +84,13 @@ input
     width: 90%;
 }
 
-.recherche
-{
-    padding-top: 20px;
+.recherche {
+    padding-top: 0px;
     margin-top: 0px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 94%;
+    height: 50px;
 }
 
 .filtre
