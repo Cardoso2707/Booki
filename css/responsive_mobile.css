@@ -50,15 +50,22 @@ nav li:hover
 {
     padding-left: 20px;
 }
+
+form
+{
+    width: 72%;
+}
+
 input
 {
+    width: 250px;
     height: 49px;
 }
     
 
 .iconlocalisation 
 {
-    width: 16%;
+    width: 15%;
 }
 
 .search_mobile 
@@ -66,8 +73,7 @@ input
     display: block;
     width: 50px;
     border-radius: 15px;
-    margin-left: -20px;
-    position: relative;
+    /* position: relative; */
 }
 
 .search_desktop
@@ -84,12 +90,13 @@ input
     width: 90%;
 }
 
-.recherche {
+.recherche 
+{
     padding-top: 0px;
     margin-top: 0px;
-    background-color: #F2F2F2;
+    background-color: #000000;
     border-radius: 15px;
-    width: 94%;
+    width: 95%;
     height: 50px;
 }
 
