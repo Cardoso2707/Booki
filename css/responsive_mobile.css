@@ -53,17 +53,16 @@ nav li:hover
 
 form
 {
-    width: 72%;
+    width: 85%;
     position: relative;
-    left: 56px;
     z-index: 0;
 }
 
 input
 {
     background-color: white;
-    width: 250px;
-    height: 49px;
+    width: 325px;
+    height: 48px;
 }
     
 
@@ -80,7 +79,6 @@ input
     width: 50px;
     border-radius: 15px;
     position: relative;
-    left: 50px;
 }
 
 .search_desktop
@@ -99,6 +97,7 @@ input
 
 .recherche 
 {
+    justify-content: space-between;
     padding-top: 0px;
     margin-top: 0px;
     background-color: #f2f2f2;
