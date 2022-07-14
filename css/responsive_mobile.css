@@ -64,6 +64,11 @@ input
     width: 325px;
     height: 48px;
 }
+
+::placeholder
+{
+    padding-left: 70px;
+}
     
 
 .iconlocalisation 
