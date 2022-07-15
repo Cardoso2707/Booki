@@ -87,12 +87,11 @@ p
 }
  
 
-input
+input 
 {
-	width: 250px;
-	height: 50px;
-	border: none;
-	
+    width: 250px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
 }
 
 ::placeholder
