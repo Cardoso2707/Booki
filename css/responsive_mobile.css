@@ -53,8 +53,9 @@ nav li:hover
 
 form
 {
-    width: 100%;
+    width: 75%;
     position: relative;
+    left: 54px;
     z-index: 0;
 }
 
@@ -67,7 +68,7 @@ input
 
 ::placeholder
 {
-    padding-left: 70px;
+    /* padding-left: 70px; */
 }
     
 
