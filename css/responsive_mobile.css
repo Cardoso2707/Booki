@@ -148,6 +148,8 @@ h3
 .iconinfo
 {
     width: 30px;
+    border-radius: 15px;
+    height: 23px;
 }
 
 .info 
