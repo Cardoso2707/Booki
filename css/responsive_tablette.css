@@ -139,8 +139,9 @@
 
     .backgroud
     {
-        width: 37%;
-        height: 250px;
+        width: 40%;
+        height: 263px;
+        border: 5px white solid;
         box-shadow: 3px 3px 10px #cfcece;
     }
 
@@ -153,6 +154,12 @@
     .taille_img 
     {
         height: 165px;
+    }
+
+    .description_img 
+    {
+        justify-content: space-around;
+        height: 98px;
     }
 
     .description_img h2 

@@ -2,10 +2,10 @@
 {
 
     body
-{
+    {
     margin: 0px;
 	font-family:'Raleway', sans-serif;
-}
+    }
     nav
     {
         flex-direction: column;
@@ -22,6 +22,7 @@
     }
     nav ul
     {
+        width: 100%;
         padding-left: 0px;
         margin: 0px;
     }
@@ -34,363 +35,361 @@
     }
 
     nav a
-{
+    {
 	
     font-size: 18px;
     font-weight: 500;
-}
+    }
 
-nav li:hover
-{
-	border-bottom: 3px solid #0065FC;
-    border-top: 0px;
-}
+    nav li:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0px;
+    }
 
-.conteneur_header
-{
-    padding-left: 20px;
-}
+    .conteneur_header
+    {
+        padding-left: 20px;
+    }
 
-form
-{
-    width: 75%;
-    position: relative;
-    left: 54px;
-    z-index: 0;
-}
+    form
+    {
+        width: 73%;
+        position: relative;
+        margin-right: -13px;
+        z-index: 0;
+    }
 
-input
-{
-    background-color: white;
-    width: 100%;
-    height: 48px;
-}
+    input
+    {
+        background-color: white;
+        width: 100%;
+        height: 48px;
+    }
+        
+
+    .iconlocalisation 
+    {
+        width: 15%;
+    }
+
+    .button_search
+    {
+        width: 15%;
+    }
+
+    .search_mobile 
+    {
+        display: block;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .search_desktop
+    {
+        display: none;
     
+    }
 
-.iconlocalisation 
-{
-    width: 15%;
-    position: absolute;
-    z-index: 1;
-}
+    .titre_slogan
+    {
+        padding-top: 27px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        width: 90%;
+    }
 
-.button_search
-{
-    width: 15%;
-}
+    .recherche 
+    {
+        justify-content: space-between;
+        padding-top: 0px;
+        margin-top: 0px;
+        background-color: #f2f2f2;
+        border-radius: 50px;
+        width: 95%;
+        height: 50px;
+    }
 
-.search_mobile 
-{
-    display: block;
-    width: 100%;
-    border-radius: 15px;
-    position: relative;
-    margin-left: 0px;
-}
+    .filtre
+    {
+        flex-wrap: wrap;
+    }
 
-.search_desktop
-{
-    display: none;
-   
-}
+    .titre_filtre
+    {
+        width: 100%;
+    }
 
-.titre_slogan
-{
-    padding-top: 27px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    width: 90%;
-}
+    .bordefiltre
+    {
+        margin: 5px;
+    }
 
-.recherche 
-{
-    justify-content: space-between;
-    padding-top: 0px;
-    margin-top: 0px;
-    background-color: #f2f2f2;
-    border-radius: 50px;
-    width: 95%;
-    height: 50px;
-}
+    h3
+    {
+        margin-bottom: 5px;
+    }
+    .texticonfiltre
+    {
 
-.filtre
-{
-    flex-wrap: wrap;
-}
+        padding: 10px;
+        margin: 0px;
+        font-weight: 800;
+        font-size: 16px;
+    }
 
-.titre_filtre
-{
-    width: 100%;
-}
+    .iconinfo
+    {
+        width: 3%;
+        border-radius: 15px;
+        height: 22px;
+    }
 
-.bordefiltre
-{
-    margin: 5px;
-}
+    .info 
+    {
+        align-items: baseline;
+    }
 
-h3
-{
-    margin-bottom: 5px;
-}
-.texticonfiltre
-{
+    main
+    {
+        flex-direction: column-reverse;
+    }
 
-    padding: 10px;
-    margin: 0px;
-    font-weight: 800;
-    font-size: 16px;
-}
+    .backpopulaire
+    {
+        margin-right: 0px;
+        padding-bottom: 0px;
+        border-radius: 0px;
+        height: 560px;
+        flex: none;
+    }
 
-.iconinfo
-{
-    width: 30px;
-    border-radius: 15px;
-    height: 23px;
-}
+    .conteneur2
+    {
+        width: 90%;
+    height: 521px;
+    }
 
-.info 
-{
-    align-items: baseline;
-}
+    .plus_populaire 
+    {   
+        margin-bottom: 0px;
+    }
 
-main
-{
-    flex-direction: column-reverse;
-}
+    .plus_populaire h1
+    {
+        font-size: 22px;
+        font-weight: 800;
+    }
 
-.backpopulaire
-{
-    margin-right: 0px;
-    padding-bottom: 0px;
-    border-radius: 0px;
-    height: 560px;
-    flex: none;
-}
+    .plus_populaire i 
+    {
+        font-size: 20px;
+    }
 
-.conteneur2
-{
-    width: 90%;
-   height: 521px;
-}
+    .chambre_populaire
+    {
+        width: 100%;
+        height: 135px;
+        margin: 0px;
+    }
 
-.plus_populaire 
-{   
-    margin-bottom: 0px;
-}
+    .description_img_populaire
+    {   
+        width: 42%;
+        margin-left: 15px;
+    }
 
-.plus_populaire h1
-{
-    font-size: 22px;
-    font-weight: 800;
-}
+    .star_populaire
+    {
+        font-size: 12px;
+        padding-top: 10px;
+    }
 
-.plus_populaire i 
-{
-    font-size: 20px;
-}
+    /* HEBERGEMENTS A MARSEILLE */
+    .backhebergeM 
+    {
+        background-color:white;
+        flex: none;
+        height: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+    }
 
-.chambre_populaire
-{
-    width: 100%;
-    height: 135px;
-    margin: 0px;
-}
+    .backhebergeM h1 
+    {
+        font-size: 22px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
 
-.description_img_populaire
-{   
-    width: 42%;
-    margin-left: 15px;
-}
-
-.star_populaire
-{
-    font-size: 12px;
-    padding-top: 10px;
-}
-
-/* HEBERGEMENTS A MARSEILLE */
-.backhebergeM 
-{
-    background-color:white;
-    flex: none;
-    height: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
+    .conteneur1 {
     
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0px;
+    }
 
-.backhebergeM h1 
-{
-    font-size: 22px;
-    margin-left: 0px;
-    padding-left: 20px;
-}
+    .backgroud 
+    {
+        width: 90%;
+        border: 5px white solid;
+        box-shadow: 3px 3px 10px #cfcece;
+    }
 
-.conteneur1 {
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0px;
-}
+    .taille_img {
+        object-fit: cover;
+        width: 100%;
+        height: 117px;
+        border-radius: 20px 20px 0px 0px;
+    }
 
-.backgroud 
-{
-    width: 90%;
-    box-shadow: 3px 3px 10px #cfcece;
-}
-
-.taille_img {
-    object-fit: cover;
-    width: 96%;
-    height: 117px;
-    border: 6px white solid;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.description_img
-{
-    margin-left: 0px;
-    padding-left: 15px;
-}
+    .description_img
+    {
+        margin-left: 0px;
+        padding-left: 15px;
+    }
 
 
 
-.afficher_plus 
-{
-    font-weight: 800;
-    padding-top: 20px;
-    padding-left: 20px;
-}
+    .afficher_plus 
+    {
+        font-weight: 800;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
 
 
-/* ACTIVITES A MARSEILLE */
+    /* ACTIVITES A MARSEILLE */
 
-.activites {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
+    .activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 
-.conteneur_principal_marseille 
-{
-    justify-content: center;
-    margin: 0px;
-    padding-top: 30px;
-}
+    .conteneur_principal_marseille 
+    {
+        justify-content: center;
+        margin: 0px;
+        padding-top: 30px;
+    }
 
-.conteneur_principal_marseille h1
-{
-    margin: 0px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-}
+    .conteneur_principal_marseille h1
+    {
+        margin: 0px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
 
-.card_marseille_1 
-{
+    .card_marseille_1 
+    {
 
-    width: 90%;
-    height: 190px;
-    margin-bottom: 25px;
-}
+        width: 90%;
+        height: 190px;
+        margin-bottom: 25px;
+    }
 
-.taille_img_vieuxport_parcnational 
-{
-  
-    width: 100%;
-    height: 190px;
-   
-}
+    .taille_img_vieuxport_parcnational 
+    {
+    
+        width: 100%;
+        height: 190px;
+    
+    }
 
-.titre_lieu_activites 
-{
-    padding: 20px;
-}
+    .titre_lieu_activites 
+    {
+        padding: 20px;
+    }
 
-.conteneur_activites
-{
-    width: 90%;
-    height: 405px;
-    margin-bottom: 25px;
-}
+    .conteneur_activites
+    {
+        width: 90%;
+        height: 405px;
+        margin-bottom: 25px;
+    }
 
-.card_marseille_2
-{
-    height: 190px;
-}
+    .card_marseille_2
+    {
+        height: 190px;
+    }
 
-.taille_img_fort
-{
-    height: 190px;
-}
+    .taille_img_fort
+    {
+        height: 190px;
+    }
 
-.card_marseille_3
-{
-	height: 190px;
-}
+    .card_marseille_3
+    {
+        height: 190px;
+    }
 
-.card_marseille_4
-{
-    width: 90%;
-    height: 190px;
-    margin-bottom: 25px;
-}
+    .card_marseille_4
+    {
+        width: 90%;
+        height: 190px;
+        margin-bottom: 25px;
+    }
 
-.card_marseille_5
-{
-	height: 190px;
-}
+    .card_marseille_5
+    {
+        height: 190px;
+    }
 
-.card_marseille_6
-{
-	height: 190px;
-}
+    .card_marseille_6
+    {
+        height: 190px;
+    }
 
 
-.taille_img_vieuxport_parcnational
-{
-    height: 190px;
-}
+    .taille_img_vieuxport_parcnational
+    {
+        height: 190px;
+    }
 
- .taille_img_fort
-{
-	height: 190px;
-}
+    .taille_img_fort
+    {
+        height: 190px;
+    }
 
-.taille_img_frioul
-{
-	height: 190px;
-} 
+    .taille_img_frioul
+    {
+        height: 190px;
+    } 
 
-.taille_img_notre_dame
-{
-	height: 190px;
-}
+    .taille_img_notre_dame
+    {
+        height: 190px;
+    }
 
-.taille_img_longchamp
-{
-	height: 190px;
-}
+    .taille_img_longchamp
+    {
+        height: 190px;
+    }
 
-footer
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: auto;
-    height: 460px;
-    margin-left: 0px;
-    padding: 30px 0px 0px 20px;
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        height: 460px;
+        margin-left: 0px;
+        padding: 30px 0px 0px 20px;
 
-}
+    }
 
-.position_conteneur_link
-{
-    width: 100%;
-    padding-bottom: 20px;
-}
+    .position_conteneur_link
+    {
+        width: 100%;
+        padding-bottom: 20px;
+    }
 
 }
