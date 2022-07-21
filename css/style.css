@@ -35,14 +35,20 @@ nav li
 {
 	font-size: 16px;
 	font-weight: 600;
-	padding: 46px 28px 0px 28px;
+	padding: 51px 28px 0px 28px;
 	margin-right: 10px;
 }
 
 nav a
 {
-	color:#0065FC;
+	color: #000000;
+    font-weight: 500;
 	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #0065FC;
 }
 
 nav li:hover
@@ -235,8 +241,8 @@ main
 
 .backhebergeM h1
 {
-	font-size: 22px;
-	padding-left: 50px;
+	font-size: 23px;
+    padding-left: 41px;
 	
 }
 
@@ -244,16 +250,16 @@ main
 .afficher_plus
 {
 	text-decoration: none;
-	color: black;
-	font-size: 18px;
-	font-weight: 800;
-	padding-left: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 41px;
 }
 
 .conteneur1 {
-    display: flex;
+	display: flex;
     justify-content: space-around;
-    padding-left: 30px;
+    padding-left: 25px;
     padding-bottom: 30px;
     width: 95%;
     flex-wrap: wrap;
@@ -271,26 +277,20 @@ main
 .backgroud
 {
 	background-color: white;
-	text-decoration: none;
-	color:  #000000;
-	width: 30%;
-    height: 200px;
-	margin: 0px 0px 27px 0px;
-	border-radius: 20px;
+    width: 30%;
+    height: 210px;
+    margin: 0px 0px 27px 0px;
+    border-radius: 20px;
 }
 
 /* conteneur toutes les chambres */
 .chambre
 {
-	background-color: white;
 	text-decoration: none;
-	color:  #000000;
-	width: 30%;
-    height: 200px;
-	margin: 0px 0px 27px 0px;
-	border-radius: 20px;
-	
+    color: #000000;
 }
+
+
 /* dimension des images hebergements */
 .taille_img
 {
@@ -312,32 +312,32 @@ span
 .description_img
 {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 90%;
-	margin-left: 30px;
+    flex-direction: column;
+    padding-left: 16px;
 
 }
 /* noms des hebergements */
 .description_img h2
 {
 	font-size: 16px;
-	margin: 0px;
+    margin: 0px;
 }
 
 /* description hebergements L2 */
 .description_img p
 {
 	font-size: 14px;
-	margin-top: 5px;
-	margin-bottom:5px;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 /* etoile bleu */
 .starheberge
 {
 	display: flex;
-	color: #0065FC;
-	font-size: small;
+    color: #0065FC;
+    font-size: small;
+    padding-bottom: 12px;
 }
 /* etoile gris */
 .star_gris
@@ -425,8 +425,8 @@ span
 	display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 34%;
-    margin-left: 20px;
+    width: 48%;
+    padding-left: 15px;
 }
 
 .description_img_populaire h2
@@ -461,7 +461,7 @@ span
 {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 80px;
+	width: 98%;
 }
 
 .activites a
@@ -572,12 +572,12 @@ span
 
 .titre_lieu_activites
 {
-	margin-top: 20px;
-    position: relative;
-    background: white;
+	background: white;
     border-radius: 0 0 20px 20px;
+    position: relative;
+	bottom: 60px;
     padding: 19px;
-    bottom: 81px;
+	margin: 0px;
     z-index: 1;
 }
 
@@ -597,6 +597,7 @@ footer
     width: 100%;
     padding: 30px 32px;
     margin-left: -56px;
+	margin-top: 80px;
 }
 footer h2
 {

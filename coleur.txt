@@ -1,0 +1,8 @@
+
+COULEUR A UTILISER
+
+color blue:        #0065FC
+
+color bleu claire: #DEEBFF
+
+color grey : fond  #F2F2F2
