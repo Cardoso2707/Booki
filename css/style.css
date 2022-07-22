@@ -156,9 +156,14 @@ h3
 	border-right: 3px solid #F2F2F2;
 	border-bottom: 3px solid #F2F2F2;
 	border-radius:50px;
-	
-	
 }
+
+.bordefiltre:hover
+{
+	background-color: #0065FC;
+	color: white;
+}
+
 
 	/*icone des differents types de filtres*/
 
@@ -180,7 +185,7 @@ h3
 .texticonfiltre
 {
 	
-	margin: 20px;
+	padding: 20px 18px 20px 9px;
 	font-weight: 800;
 	font-size: 18px;
 
@@ -242,7 +247,7 @@ main
 .backhebergeM h1
 {
 	font-size: 23px;
-    padding-left: 41px;
+    padding-left: 3.5%;
 	
 }
 
@@ -253,13 +258,14 @@ main
     color: black;
     font-size: 18px;
     font-weight: 800;
-    padding-left: 41px;
+    margin-left: 3.5%;
+    width: 115px;
 }
 
 .conteneur1 {
 	display: flex;
     justify-content: space-around;
-    padding-left: 25px;
+    padding-left: 2.5%;
     padding-bottom: 30px;
     width: 95%;
     flex-wrap: wrap;
@@ -337,7 +343,7 @@ span
 	display: flex;
     color: #0065FC;
     font-size: small;
-    padding-bottom: 12px;
+    padding-bottom: 27px;
 }
 /* etoile gris */
 .star_gris
@@ -393,12 +399,8 @@ span
 .backarticle_populaire
     {
         display: flex;
-        background-color: white;
-        text-decoration: none;
-        color: #000000;
-        width: 100%;
         height: 26%;
-        margin: 0px 0px 27px 0px;
+        margin-bottom: 27px;
         border-radius: 20px;
         box-shadow: 3px 3px 10px #cfcece;
     }
@@ -529,6 +531,40 @@ span
     box-shadow: 3px 3px 10px #cfcece;
 }
 
+.limitation_click_1
+{
+	height: 450px;
+}
+
+
+.limitation_click_2
+{
+	height: 250px;
+}
+
+
+.limitation_click_3
+{
+	height: 160px;
+}
+
+
+.limitation_click_4
+{
+	height: 450px;
+}
+
+
+.limitation_click_5
+{
+	height: 200px;
+}
+
+
+.limitation_click_6
+{
+	height: 220px;
+}
 
 .taille_img_vieuxport_parcnational
 {
@@ -580,7 +616,6 @@ span
 	margin: 0px;
     z-index: 1;
 }
-
 
 h2
 {

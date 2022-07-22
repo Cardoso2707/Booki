@@ -121,12 +121,12 @@
         background-color: #F2F2F2;
         margin-right: 20px;
         margin-left: 20px;
-        height: 1000px;
+        height: 1048px;
     }
 
     .backhebergeM h1 
     {
-        padding-left: 25px;
+        padding-left: 46px;
     }
 
     .conteneur1 {
@@ -170,16 +170,21 @@
     .description_img p 
     {
         font-size: 16px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .starheberge 
     {
         font-size: 16px;
+        padding-bottom: 8px;
     }
 
     .afficher_plus 
     {
-        padding-left: 30px;
+        margin-left: 46px;
+        padding-left: 0px;
+        width: 115px;
     }
 
     /* ACTIVITES A MARSEILLE */
@@ -198,6 +203,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin-bottom: 50px;
+        width: 100%;
     }
 
     .conteneur_activites
@@ -227,9 +233,14 @@
         margin-left: 0px;
     }
 
+    footer a 
+    {
+        font-size: 14px;
+    }
+
     .position_conteneur_link {
-        width: 33%;
-        padding-left: 81px;
+        
+        margin-left: 75px;
     }
 
 }

@@ -14,11 +14,10 @@
 
     .logo
     {
-    
         width: 100px;
         margin-left: 50px;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        margin-top: 22px;
+        margin-bottom: 33px;
     }
     nav ul
     {
@@ -30,6 +29,7 @@
     nav li
     {
         width: 100%;
+        text-align: center;
         padding: 0px 40px 10px 40px;
         border-bottom: 3px solid #F2F2F2;
         margin-right: 0px;
@@ -102,6 +102,12 @@
         width: 90%;
     }
 
+    .sous_titre
+    {
+        margin-bottom: 40px;
+    }
+    
+
     .recherche 
     {
         justify-content: space-between;
@@ -143,7 +149,7 @@
 
     .iconinfo
     {
-        width: 3%;
+        width: 28px;
         border-radius: 15px;
         height: 22px;
     }
@@ -163,7 +169,7 @@
         margin-right: 0px;
         padding-bottom: 0px;
         border-radius: 0px;
-        height: 560px;
+        height: 580px;
         flex: none;
     }
 
@@ -175,7 +181,7 @@
 
     .plus_populaire 
     {   
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .plus_populaire h1
@@ -186,20 +192,24 @@
 
     .plus_populaire i 
     {
-        font-size: 20px;
+        font-size: 21px;
+    }
+
+    .backarticle_populaire 
+    {
+        height: 133px;
     }
 
     .chambre_populaire
     {
         width: 100%;
-        height: 135px;
+        height: 150px;
         margin: 0px;
     }
 
     .description_img_populaire
     {   
         width: 42%;
-        margin-left: 15px;
     }
 
     .star_populaire
@@ -223,7 +233,7 @@
     {
         font-size: 22px;
         margin-left: 0px;
-        padding-left: 20px;
+        padding-left: 5%;
     }
 
     .conteneur1 {
@@ -241,6 +251,8 @@
         width: 90%;
         border: 5px white solid;
         box-shadow: 3px 3px 10px #cfcece;
+        height: 195px;
+        margin-bottom: 15px;
     }
 
     .taille_img {
@@ -252,34 +264,53 @@
 
     .description_img
     {
-        margin-left: 0px;
+        justify-content: space-evenly;
         padding-left: 15px;
+        height: 78px;
     }
 
+    .description_img h2
+    {
+        font-weight: 800;
+    }
 
+    .description_img p
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .starheberge 
+    {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
 
     .afficher_plus 
     {
         font-weight: 800;
-        padding-top: 20px;
-        padding-left: 20px;
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 115px;
     }
 
 
+    
     /* ACTIVITES A MARSEILLE */
 
-    .activites {
+    .activites 
+    {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
+        width: 100%;
     }
 
     .conteneur_principal_marseille 
     {
         justify-content: center;
         margin: 0px;
-        padding-top: 30px;
+        padding-top: 55px;
     }
 
     .conteneur_principal_marseille h1
@@ -293,7 +324,7 @@
     {
 
         width: 90%;
-        height: 190px;
+        height: 195px;
         margin-bottom: 25px;
     }
 
@@ -319,7 +350,7 @@
 
     .card_marseille_2
     {
-        height: 190px;
+        height: 195px;
     }
 
     .taille_img_fort
@@ -329,24 +360,24 @@
 
     .card_marseille_3
     {
-        height: 190px;
+        height: 195px;
     }
 
     .card_marseille_4
     {
         width: 90%;
-        height: 190px;
+        height: 195px;
         margin-bottom: 25px;
     }
 
     .card_marseille_5
     {
-        height: 190px;
+        height: 195px;
     }
 
     .card_marseille_6
     {
-        height: 190px;
+        height: 195px;
     }
 
 
@@ -384,6 +415,8 @@
         height: 460px;
         margin-left: 0px;
         padding: 30px 0px 0px 20px;
+        margin-top: 25px;
+
 
     }
 
